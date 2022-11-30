@@ -16,7 +16,7 @@
 
 ![AnsibleBasic](https://user-images.githubusercontent.com/111991325/202610504-9af669fc-b6bc-417c-906e-03a0176b47ce.png)
 
-# Components o
+# Components
 
 
  
