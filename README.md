@@ -1,3 +1,12 @@
+# What is Ansible & Why it Matters
+- Ansible is an automation engine/platform that is simple, powerful, and agentless
+- Ansible provides:
+   - Provisioning
+   - Configuration Management
+   - Continuous Delivery
+   - Application Deployment
+   - Security Compliance
+   
 # Ansible Fundamentals & Archtechture
  - <b>Control Node</b> - A system which Ansible is installed. You run Ansible commands: ansible or ansible-inventory on a control node.
  - <b>Managed Node</b> - A remote system, host, that ansible controls.
@@ -17,16 +26,12 @@
 ![AnsibleBasic](https://user-images.githubusercontent.com/111991325/202610504-9af669fc-b6bc-417c-906e-03a0176b47ce.png)
 
 # Components
-
-
- 
 <b>Playbooks</b> - A single YAML file,
  - <b>Playbook</b>: the highest level, just a list of plays
    - <b>Play</b>: Ordered set of tasks that ties tasks to host lists
     - <b>Tasks</b>: definition of a call to a module
     - Besides tasks, a play may have pre-tasks, post-tasks and handlers, which are all task-like, and roles.
-    - <b>Modules</b> are discrete units of code that can be used from the command line or in a playbook task.
- 
+    - <b>Modules</b> are discrete units of code that can be used from the command line or in a playbook task. "Tools in a toolkit"
 
 - <b>Plays</b></b> - Defines a set of activities (tasks)
 - <b>Task</b> - An action to be performed on the host(s)
