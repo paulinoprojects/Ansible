@@ -52,3 +52,21 @@ By following this one-week plan, you can gain a solid foundation in Ansible and 
 - Vault: A tool that allows for the encryption and decryption of sensitive data, such as passwords or API keys, used in Ansible playbooks.
 
 By understanding and working with these Ansible components, users can build robust and flexible automation scripts that can be applied to a wide range of infrastructure configurations.
+
+
+# Resources
+1. Ansible documentation and resources:
+
+2. Ansible Documentation: https://docs.ansible.com/
+
+3. Ansible Galaxy: https://galaxy.ansible.com/
+
+4. Ansible for DevOps: https://www.ansiblefordevops.com/
+
+5. DigitalOcean Ansible Tutorials: https://www.digitalocean.com/community/tags/ansible?type=tutorials
+
+6. Red Hat Ansible Automation Platform: https://www.ansible.com/products/automation-platform
+
+7. Ansible YouTube Channel: https://www.youtube.com/c/AnsibleAutomation
+
+8. Ansible GitHub Repository: https://github.com/ansible/ansible
