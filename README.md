@@ -1,51 +1,29 @@
-# What is Ansible & Why it Matters
-- Ansible is an automation engine/platform that is simple, powerful, and agentless
-- Ansible provides:
-   - Provisioning
-   - Configuration Management
-   - Continuous Delivery
-   - Application Deployment
-   - Security Compliance
-   
-# Ansible Fundamentals & Anatomy
- - <b>Control Node</b> - A system which Ansible is installed. You run Ansible commands: ansible or ansible-inventory on a control node.
- - <b>Managed Node</b> - A remote system, host, that ansible controls.
- - <b>Inventory</b> - A list of managed nodes that are logically organized. You create an inventory on the control node to describe host deployments to ansible.
-   - Inventories organizes managed nodes in centralized files that contains system information and network locations.
-   - <b>Inventory Files</b> - Defines host and groups of hosts, which commands, modules, and task in a playbook.
-     - Default location for inventory is a file called <b><i> /etc/ansible/hosts</b></i>
-     - Characeristics of <b>YAML (.yaml)(.yml)</b>
-     - Keys: Values, is how YAML is written
-     - Data types for key (attribute): value
-       - Strings
-       - Integers
-       - Boolean - true or false
-       - List
-       - Does not rely on brackets and quotations like JSON or XML, instead <b><i>spacing and indentation</b></i>.
+# Why You Should Learn Ansible
+Learning Ansible can help you become a more efficient and effective system administrator or developer, while also improving the reliability and consistency of your infrastructure. Several key points:
+         - Automation: Ansible can automate repetitive and time-consuming tasks, freeing up time for other important tasks.
+         - Scalability: Ansible can easily manage large-scale environments, allowing for faster and more efficient configuration management.
+         - Consistency: Ansible ensures consistency across your infrastructure by enforcing the same configuration across all systems.
+         - Collaboration: Ansible promotes collaboration by allowing multiple team members to work on the same infrastructure and share knowledge.\
+         - Portability: Ansible is portable across different platforms and operating systems, making it easier to manage a variety of environments.
+         - Community: Ansible has a large and active community, which means there are many resources available for learning and troubleshooting.
 
-![AnsibleBasic](https://user-images.githubusercontent.com/111991325/202610504-9af669fc-b6bc-417c-906e-03a0176b47ce.png)
+# Learn Ansible Basics - 1 Week Study Plan
 
-# Components
-<b>Playbooks</b> - A single YAML file,
- - <b>Playbook</b>: the highest level, just a list of plays
-   - <b>Play</b>: Ordered set of tasks that ties tasks to host lists
-    - <b>Tasks</b>: definition of a call to a module
-    - Besides tasks, a play may have pre-tasks, post-tasks and handlers, which are all task-like, and roles.
-    - <b>Modules</b> are discrete units of code that can be used from the command line or in a playbook task. "Tools in a toolkit"
+- Day 1: Start with the basics of Ansible by reading through the official documentation, including installation and configuration, ad-hoc commands, and Ansible playbooks.
 
-- <b>Plays</b></b> - Defines a set of activities (tasks)
-- <b>Task</b> - An action to be performed on the host(s)
-  - Run a script or command
-  - Restart/shutdown
-  - Install a package
-  - Commands
- 
-- Hosts: must be defined in the inventory file
-- Commands: referred to as modules, and categorized based on functionality
-   - System
-   - Commands
-   - Files
-   - Database
-   - Cloud
-   - Windows
+- Day 2: Begin practicing Ansible by working on simple lab exercises, such as writing a playbook that installs a package on a target host or group of hosts.
+
+- Day 3: Move on to more advanced topics in Ansible, such as variables and templates, roles, conditionals and loops, and Ansible modules.
+
+- Day 4: Learn how to use dynamic inventory to automatically discover and manage hosts.
+
+- Day 5: Practice using Ansible on a larger scale by creating more complex playbooks that manage multiple servers and services.
+
+- Day 6: Learn how to test and debug Ansible playbooks to ensure they are working correctly and troubleshoot any issues that arise.
+
+- Day 7: Spend time reviewing and reinforcing your knowledge of Ansible by participating in online forums, reading through more advanced documentation, or practicing on your own projects.
+
+By following this one-week plan, you can gain a solid foundation in Ansible and start using it to manage your own infrastructure. However, it's important to note that mastering Ansible will require ongoing practice and learning over time.
+
+# Ansible Anatomy 
 
