@@ -7,7 +7,7 @@
    - Application Deployment
    - Security Compliance
    
-# Ansible Fundamentals & Archtechture
+# Ansible Fundamentals & Anatomy
  - <b>Control Node</b> - A system which Ansible is installed. You run Ansible commands: ansible or ansible-inventory on a control node.
  - <b>Managed Node</b> - A remote system, host, that ansible controls.
  - <b>Inventory</b> - A list of managed nodes that are logically organized. You create an inventory on the control node to describe host deployments to ansible.
