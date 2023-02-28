@@ -54,8 +54,9 @@ By following this one-week plan, you can gain a solid foundation in Ansible and 
 By understanding and working with these Ansible components, users can build robust and flexible automation scripts that can be applied to a wide range of infrastructure configurations.
 
 
-# Resources
-1. Ansible documentation and resources:
+
+# Ansible documentation and resources:
+1. Ansible GitHub Repository: https://github.com/ansible/ansible
 
 2. Ansible Documentation: https://docs.ansible.com/
 
@@ -68,5 +69,3 @@ By understanding and working with these Ansible components, users can build robu
 6. Red Hat Ansible Automation Platform: https://www.ansible.com/products/automation-platform
 
 7. Ansible YouTube Channel: https://www.youtube.com/c/AnsibleAutomation
-
-8. Ansible GitHub Repository: https://github.com/ansible/ansible
