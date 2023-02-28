@@ -7,7 +7,12 @@
 
 In summary, understanding YAML is essential to effectively using Ansible to automate infrastructure management, application deployment, and configuration management. It is a valuable skill for anyone working in DevOps, system administration, or software development.
 
-## Resources that can help you learn YAML:
+# YAML Components
+
+
+
+
+# Resources that can help you learn YAML:
 - YAML Tutorial: https://learnxinyminutes.com/docs/yaml/
 - YAML Basics: https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
 - YAML Spec: https://yaml.org/spec/1.2/spec.html
