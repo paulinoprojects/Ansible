@@ -30,5 +30,25 @@ Learning Ansible can help you become a more efficient and effective system admin
 
 By following this one-week plan, you can gain a solid foundation in Ansible and start using it to manage your own infrastructure. However, it's important to note that mastering Ansible will require ongoing practice and learning over time.
 
-# Ansible Anatomy 
+# Ansible Anatomy & Components
+- Inventory: A list of target hosts or groups of hosts that Ansible will manage.
 
+- Playbooks: A series of tasks written in YAML format that define the desired state of a system.
+
+- Tasks: A set of actions to be executed on target hosts to bring them to the desired state defined in the playbook.
+
+- Modules: Pre-built units of code that perform specific actions, such as managing files, installing packages, or creating users.
+
+- Roles: A collection of related tasks and variables that can be reused across multiple playbooks.
+
+- Handlers: A set of tasks that are triggered when a change is made to a system, such as restarting a service or reloading a configuration.
+
+- Variables: Parameters and settings that can be passed to playbooks or roles to customize their behavior.
+
+- Templates: Reusable files that contain placeholders for variables and are used to generate configuration files or other text-based content.
+
+- Conditionals and Loops: Control structures that allow playbooks to execute different actions depending on the state of a system or to repeat actions multiple times.
+
+- Vault: A tool that allows for the encryption and decryption of sensitive data, such as passwords or API keys, used in Ansible playbooks.
+
+By understanding and working with these Ansible components, users can build robust and flexible automation scripts that can be applied to a wide range of infrastructure configurations.
