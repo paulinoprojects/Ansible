@@ -16,7 +16,21 @@ YAML consists of three basic components:
 
 - Comments: YAML supports single-line and multi-line comments. Comments are preceded by the "#" character and are ignored by the parser.
 
+# Best Practices when writing YAML
 
+1. Start with a clear understanding of the data structure you want to define. This can include the properties, attributes, and relationships between different elements.
+
+2. Use consistent indentation throughout the file. This helps maintain a clear and organized structure.
+
+3. Use meaningful and descriptive key names. This helps make the configuration file more readable and understandable.
+
+4. Use quotes for string values that contain special characters, such as spaces or colons.
+
+5. Use lists and dictionaries to organize complex data structures.
+
+6. Use comments sparingly to explain the purpose and intent of the configuration data.
+
+7. Test and validate the configuration file before using it in production environments.
 
 # Resources that can help you learn YAML:
 - YAML Tutorial: https://learnxinyminutes.com/docs/yaml/
