@@ -8,7 +8,13 @@
 In summary, understanding YAML is essential to effectively using Ansible to automate infrastructure management, application deployment, and configuration management. It is a valuable skill for anyone working in DevOps, system administration, or software development.
 
 # YAML Components
+YAML consists of three basic components:
 
+- Indentation: YAML uses indentation to represent the structure of data. Each level of indentation indicates a new level in the data structure. Indentation must be consistent throughout the file.
+
+- Keys and values: YAML uses key-value pairs to represent data. Keys are typically strings that represent the name of a property or attribute, while values can be strings, numbers, booleans, lists, or other data types.
+
+- Comments: YAML supports single-line and multi-line comments. Comments are preceded by the "#" character and are ignored by the parser.
 
 
 
