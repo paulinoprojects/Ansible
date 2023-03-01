@@ -1,4 +1,4 @@
-# YAML 
+# YAML - Introduction
 - YAML is the primary configuration file format used by Ansible, and understanding YAML is essential to writing and managing Ansible playbooks and inventory files.
 
 - YAML is a lightweight and human-readable data serialization language that is easy to learn and use. Ansible uses YAML files to define configuration data, such as server parameters, application settings, and system configurations.
